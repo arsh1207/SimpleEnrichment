@@ -9,10 +9,7 @@ For more information about TypeSafe config library and HOCON, see [here](https:/
 
 The assignment structure already is using the library and you don’t need to implement anything.
 
-## Open the Assessment
-Download the assessment, using Eclipse import the assessment as a maven project.
-
-## Assessment Requirements
+## Assessment Done
 
 1. Make **Configuration** class singleton. The Configuration class will read your configuration file that is in this case by default **reference.conf** and instantiates the variables.
 2. Implement **FileReaderParse** interface for two different file types: JSON and CSV. Check out **subscriber.json** and **subscriber.csv** for the format of each line. Each line is an input to the parseSubscriber method of **FileReaderParser** and converts it to an instance of **Subscriber**.
